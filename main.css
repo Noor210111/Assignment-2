@@ -1,0 +1,116 @@
+.products{
+    margin-top: 400px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.product-title p{
+    color: #F48E28;
+    padding-left: 540px;
+}
+.product-title h1{
+    padding-left: 460px;
+}
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product img{
+    height: 100%;
+    width: 100%;
+}
+
+.see-more{
+    padding-left: 425px;
+    padding-top: 40px;
+}
+
+
+
+
+.services{
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.services-title p{
+    color: #F48E28;
+    padding-left: 530px;
+}
+.services-title h1{
+    padding-left: 400px;
+}
+
+.service-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.service-card img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+.testimonials{
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-left: 90px;
+}
+
+.testimonials-title p{
+    color: #F48E28;
+    padding-left: 470px;
+}
+.testimonials-title h1{
+    padding-left: 400px;
+}
+
+.testimonials-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.testimonials-card img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.subs-card{
+    padding-left: 180px;
+    padding-top: 70px;
+}
+.subs-card img{
+    height: 85%;
+    width: 87%;
+}
+
+
+
+
+.footer{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.footer-con{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 25px;
+}
+
+.footer-con img{
+    
+}
