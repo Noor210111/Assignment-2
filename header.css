@@ -71,3 +71,30 @@
     width: 1450px;
     margin-top: 10px;
 }
+
+
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    .nav-bar{
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    .heading-con{
+        flex-direction: column;
+        margin-top: 200px;
+        margin-left: 200px;
+
+    }
+    .service-img{
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 0px;
+        gap: 0px;
+    }
+    .line{
+        height: 0px;
+        width: 0px;
+        justify-content: space-around;
+        padding-top: 0px;
+        gap: 0px;
+    }
+}
